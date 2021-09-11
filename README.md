@@ -4,6 +4,14 @@ https://github.com/apache/cordova-plugin-inappbrowser
 
 https://cordova.apache.org/docs/en/latest/reference/cordova-plugin-inappbrowser/index.html
 
+Replicate:
+```
+git clone https://github.com/codeconsole/inappbrowsertest
+cd inappbrowsertest
+cordova prepare
+cordova run ios
+```
+
 InAppBrowser Should respect safe insets
 ```
 env(safe-area-inset-top, 0px) env(safe-area-inset-right, 0px) env(safe-area-inset-bottom, 0px) env(safe-area-inset-left, 0px);
